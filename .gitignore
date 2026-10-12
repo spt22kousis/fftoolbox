@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 附帶的 ffmpeg 執行檔（體積大，另外下載放進 bin\ffmpeg\）
+bin/
+
+# 測試用影片、字幕素材（體積大且有版權）
+sample/
+
+# PyInstaller
+build/
+dist/
+*.spec
